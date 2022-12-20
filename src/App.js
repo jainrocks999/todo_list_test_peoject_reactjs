@@ -5,9 +5,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Todos from './todoList';
 
 const App = () => {
-  return(
+  return (
     <>
-    <Todos />
+      <Todos />
     </>
   )
 }
