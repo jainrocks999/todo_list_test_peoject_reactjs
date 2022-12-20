@@ -5,7 +5,7 @@ import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { RiDeleteBin5Line } from "react-icons/ri"
 
-const App = () => {
+const Todos = () => {
   const [todoList, setTodoList] = useState([]);
   const [addTodo, setAddTodo] = useState("");
 
@@ -145,4 +145,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default Todos;

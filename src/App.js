@@ -2,12 +2,12 @@
 import React from 'react'
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import TodoList from './todo';
+import Todos from './todoList';
 
 const App = () => {
   return(
     <>
-    <TodoList />
+    <Todos />
     </>
   )
 }
